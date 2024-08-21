@@ -1,1 +1,1 @@
-# app.js file uploaded soon, Cheers
+JARVIS is a Virtual Assistant with various functionalities.
