@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  text-align: center;
+}
+
+.image-container .image img {
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-container h1 {
+  color: #00bcd4;
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+.image-container p {
+  color: #afcdd3;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  max-width: 500px;
+  height: 60px;
+  border-radius: 30px;
+  background: rgba(202, 253, 255, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.talk {
+  background: #51daec;
+  border: none;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.talk:hover {
+  background: #0097a7;
+  transform: scale(1.05);
+}
+
+.content {
+  color: #00bcd4;
+  font-size: 18px;
+  margin-left: 20px;
+  flex-grow: 1;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #eee;
+}
+
+.dark-mode .input {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dark-mode .talk {
+  background: #0097a7;
+}
